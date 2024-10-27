@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.kioskContainer {
+    max-width: 800px;
+    max-height: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contentWrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.kioskTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.descriptionContainer {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.tagsContainer {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.tag {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding: 2px 4px;
+    margin-right: 4px;
+    font-size: 16px;
+    background: #e0e0e0;
+    border-radius: 5px;
+}
+
+.type {
+    font-size: 16px;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.link {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.url {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #3b82f6;
+}
+
+.imageContainer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.screenshot {
+    max-width: 400;
+    max-height: 200;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.navigation {
+    position: fixed;
+    bottom: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.navButton {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.navButton:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+
+.backLink {
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #3b82f6;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.backLink:hover {
+    color: #2563eb;
+}
+
+.qrCodeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.errorMessage {
+    background-color: #ffdddd;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}

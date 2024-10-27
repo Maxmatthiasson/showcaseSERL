@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.projectTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 10px 20px;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0 20px 20px;
+}
+
+.link {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 18px;
+}
+
+.url {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #3b82f6;
+}
+
+.tagsContainer {
+    margin: 10px 20px;
+    font-size: 18px;
+}
+
+.tag {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding: 2px 4px;
+    margin-right: 2px;
+    font-size: 18px;
+}
+
+.type {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.textContainer {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.imageContainer {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    margin-top: 55;
+}
+
+.screenshot {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.pageContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.errorMessage {
+    background-color: #ffdddd;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
